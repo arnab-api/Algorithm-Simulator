@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2016, 9:22:30 PM
+    Author     : User
+*/
+
+.root{
+    -fx-background-color:  #ADADAD; 
+    -fx-border-color: #8B008B;
+    -fx-font-size: 21;
+}
+
+//.button{
+//    -fx-background-color: #1E90FF;
+//    -fx-text-fill: #C0FF3E;
+//    -fx-font-weight: bold;
+//    -fx-background-radius: 10;
+//}
+.button{
+    -fx-background-color: #87CEFA;
+    -fx-color: black;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-color: white;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-border-radius: 6;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+.button:hover {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-color: white;
+}
+.label{
+    -fx-text-fill: #EE4000;
+}
+/*.button_pause{
+    -fx-background-color: #FF4500;
+    -fx-text-fill: #C71585;
+}
+
+.button_play{
+    -fx-background-color: #C0FF3E;
+    -fx-text-fill: #7B68EE;
+}*/
+
+#button_pause{
+    -fx-background-color: #FF4500;
+    -fx-text-fill: #FF83FA;
+}
+#button_pause:hover {
+    -fx-background-color: #FFFACD;
+    -fx-color: white;
+}
+
+#button_play{
+    -fx-background-color: #C0FF3E;
+    -fx-text-fill: #7B68EE;
+}
+#button_play:hover {
+    -fx-background-color: #FFFACD;
+    -fx-color: white;
+}
+#normal{
+    -fx-background-color: #C0FF3E;
+    -fx-text-fill: #8B008B;
+}
+#normal:hover {
+    -fx-background-color: #FFFACD;
+    -fx-color: white;
+}

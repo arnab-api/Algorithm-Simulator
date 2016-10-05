@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2016, 4:10:38 AM
+    Author     : User
+*/
+.button{
+    -fx-background-color: #FF4040;
+    -fx-color: black;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-color: white;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-border-radius: 6;
+}
+#layout{
+    -fx-background-color :  #87CEFA;
+}
+#text{
+    -fx-font-size : 20;
+    -fx-font-weight: bold;
+}
+#text_weight{
+    -fx-font-size : 15;
+    -fx-font-weight: bold;
+}
+#text_Time{
+    -fx-font-size : 20;
+    -fx-font-weight: bold;
+    -fx-background-color: #66FF33; 
+}
+#button{
+    -fx-background-color: #6495ED;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-font-size : 20
+}
+#button:hover {
+    -fx-background-color: #FFFACD; /* Green */
+    -fx-color: white;
+}
+#button_pause{
+    -fx-background-color: #FF4500;
+    -fx-text-fill: #000080;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-font-size : 13
+}
+#button_pause:hover {
+    -fx-background-color: #FFFACD;
+    -fx-color: white;
+}
+#button_play{
+    -fx-background-color: #C0FF3E;
+    -fx-text-fill: #7B68EE;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-font-size : 13
+}
+#button_play:hover {
+    -fx-background-color: #FFFACD; /* Green */
+    -fx-color: white;
+}
+#label_bold{
+    -fx-font-size : 40;
+    -fx-font-weight: bold;
+}
+#layout_queue{
+    -fx-background-color:silver
+}
+#text_normal{
+    -fx-font-size : 20;
+    -fx-font-weight: bold;
+}
+#text_top{
+    -fx-font-size : 30;
+    -fx-font-weight: bold;
+}
+#vbox_Instruction{
+    -fx-background-color: #F0E68C;
+}
+#label_input{
+    -fx-font-size : 20;
+    -fx-font-weight: bold;
+}
+#sorted_edge{
+    -fx-background-color: #FFCCFF;
+}
